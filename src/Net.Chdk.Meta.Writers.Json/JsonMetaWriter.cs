@@ -19,6 +19,12 @@ namespace Net.Chdk.Meta.Writers.Json
 
         #endregion
 
+        #region Extension
+
+        public string Extension => ".json";
+
+        #endregion
+
         #region WriteJson
 
         protected void WriteJson<T>(string path, T obj)
